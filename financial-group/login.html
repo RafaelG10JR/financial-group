@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iniciar sesión · Financial Group</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body class="auth" data-page="login">
+  <main class="authbox">
+    <a class="logo" href="index.html">Financial<b>Group</b></a>
+    <h1 id="t">Bienvenido</h1>
+    <p class="mu" id="sub">Inicia sesión en tu cuenta</p>
+    <form id="f">
+      <label class="reg" for="nm" hidden>Nombre completo</label>
+      <input class="reg" id="nm" autocomplete="name" hidden>
+      <label for="e">Correo electrónico</label>
+      <input id="e" type="email" required value="rafael@correo.com" autocomplete="email">
+      <label for="c">Contraseña</label>
+      <input id="c" type="password" required minlength="4" value="123456" autocomplete="current-password">
+      <button class="btn p w">Continuar</button>
+    </form>
+    <p class="mu" style="text-align:center;margin:16px 0 4px">o continúa con</p>
+    <a class="btn w" href="home.html">Google</a>
+    <a class="btn w" href="home.html">Apple</a>
+    <p class="mu" id="sw" style="text-align:center;margin-top:20px">¿No tienes cuenta? <a class="ok" href="login.html?registro">Regístrate gratis</a></p>
+  </main>
+</body>
+</html>
